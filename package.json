@@ -12,6 +12,9 @@
     "uglifyjs": "~2.3.6",
     "watchify": "~0.4.1"
   },
+  "peerDependencies": {
+    "node-jsx": "petehunt/node-jsx"
+  },
   "scripts": {
     "start": "watchify -o build/bundle.js -d .",
     "build": "NODE_ENV=production browserify . | uglifyjs -cm > build/bundle.js",
