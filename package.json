@@ -1,7 +1,7 @@
 {
-  "name": "react-starter-kit",
+  "name": "react-boilerplate",
   "version": "0.0.1",
-  "description": "Quick starter kit with React",
+  "description": "Quick boilerplate for browserify and React modules.",
   "main": "index.js",
   "dependencies": {
     "react-core": "petehunt/react-core"
@@ -9,10 +9,12 @@
   "devDependencies": {
     "browserify": "~2.36.0",
     "reactify": "~0.4.0",
+    "uglifyjs": "~2.3.6",
     "watchify": "~0.4.1"
   },
   "scripts": {
     "start": "watchify -o build/bundle.js -d .",
+    "build": "NODE_ENV=production browserify . | uglifyjs -cm > build/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pete Hunt",
