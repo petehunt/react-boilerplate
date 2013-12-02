@@ -1,0 +1,25 @@
+{
+  "name": "react-starter-kit",
+  "version": "0.0.1",
+  "description": "Quick starter kit with React",
+  "main": "index.js",
+  "dependencies": {
+    "react-core": "petehunt/react-core"
+  },
+  "devDependencies": {
+    "browserify": "~2.36.0",
+    "reactify": "~0.4.0",
+    "watchify": "~0.4.1"
+  },
+  "scripts": {
+    "start": "watchify -o build/bundle.js -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pete Hunt",
+  "license": "Apache 2",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
