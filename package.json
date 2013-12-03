@@ -4,7 +4,7 @@
   "description": "Quick boilerplate for browserify and React modules.",
   "main": "index.js",
   "dependencies": {
-    "react-core": "petehunt/react-core"
+    "react-core": "http://petehunt.net/react/react-core-0.5.1.tar.gz"
   },
   "devDependencies": {
     "browserify": "~2.36.0",
