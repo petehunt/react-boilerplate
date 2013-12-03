@@ -16,8 +16,8 @@
     "node-jsx": "petehunt/node-jsx"
   },
   "scripts": {
-    "start": "watchify -o build/bundle.js -d .",
-    "build": "NODE_ENV=production browserify . | uglifyjs -cm > build/bundle.js",
+    "start": "watchify -o browser-bundle.js -d .",
+    "build": "NODE_ENV=production browserify . | uglifyjs -cm > browser-bundle.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pete Hunt",
