@@ -7,11 +7,11 @@
     "react": "http://petehunt.net/react/react-0.5.1.tar.gz"
   },
   "devDependencies": {
-    "react-tools": "~0.5.1"
+    "jsx2": "petehunt/jsx2"
   },
   "scripts": {
-    "start": "jsx --watch src/ lib/",
-    "build": "jsx src/ lib/"
+    "start": "jsx2 --watch src/ lib/",
+    "build": "jsx2 src/ lib/"
   },
   "author": "Pete Hunt",
   "license": "Apache 2"
