@@ -2,7 +2,7 @@
   "name": "react-boilerplate",
   "version": "0.0.1",
   "description": "Quick boilerplate for browserify and React modules.",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "react-core": "http://petehunt.net/react/react-core-0.5.1.tar.gz"
   },
