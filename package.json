@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "Quick boilerplate for browserify and React modules.",
+  "description": "Quick packager-agnostic boilerplate for React modules using JSX",
   "main": "lib/index.js",
   "dependencies": {
     "react": "http://petehunt.net/react/react-0.5.1.tar.gz"
