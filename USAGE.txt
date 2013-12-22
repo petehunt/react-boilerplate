@@ -1,0 +1,6 @@
+Put your code in `src/index.js`.
+
+Use `npm run build` to build your JSX from `src/` to regular JavaScript in `lib/`.
+Use `npm start` to watch the filesystem for changes to do this automatically during development.
+
+When you're ready to publish to npm, make sure you `npm run build` before doing `npm publish`.
