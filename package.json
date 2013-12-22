@@ -4,7 +4,7 @@
   "description": "Quick packager-agnostic boilerplate for React modules using JSX",
   "main": "lib/index.js",
   "dependencies": {
-    "react": "http://petehunt.net/react/react-0.5.1.tar.gz"
+    "react": "~0.8"
   },
   "devDependencies": {
     "jsxc": "~0.1.3"
