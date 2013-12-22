@@ -13,7 +13,7 @@
     "start": "jsxc --watch src/ lib/",
     "build": "jsxc src/ lib/"
   },
-  "files": ["lib/"],
+  "files": ["lib/", "USAGE.txt"],
   "author": "Pete Hunt",
   "license": "Apache 2"
 }
