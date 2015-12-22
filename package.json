@@ -12,8 +12,8 @@
     "jsxc": "~0.1.6"
   },
   "scripts": {
-    "start": "jsxc --watch src/ lib/",
-    "build": "jsxc src/ lib/"
+    "start": "node ./node_modules/jsxc/bin/jsxc --watch src/ lib/",
+    "build": "node ./node_modules/jsxc/bin/jsxc src/ lib/"
   },
   "files": ["lib/", "USAGE.txt", "static/"],
   "staticRoot": "./static/",
