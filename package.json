@@ -4,7 +4,7 @@
   "description": "Quick packager-agnostic boilerplate for React modules using JSX",
   "main": "lib/index.js",
   "dependencies": {
-    "react": "~0.8",
+    "react": "^18.2.0",
     "statics-stylesheets": "~0.0.1",
     "stylesheets": "~0.0.3"
   },
@@ -15,7 +15,11 @@
     "start": "jsxc --watch src/ lib/",
     "build": "jsxc src/ lib/"
   },
-  "files": ["lib/", "USAGE.txt", "static/"],
+  "files": [
+    "lib/",
+    "USAGE.txt",
+    "static/"
+  ],
   "staticRoot": "./static/",
   "staticPlugin": "statics-stylesheets",
   "author": "Pete Hunt",
